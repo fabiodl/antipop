@@ -1,0 +1,6 @@
+V1,D2,C1,R3,D1,R5 are used to simulate the power source / load .
+
+Power-up mute: C3 is charging, and draws current over R5/R7 and D4. This switches on Q2.
+Power-down mute: vd goes negative, Q1 swiches on, and draws current from R5,R7. This switches Q2 on. D4 prevents C3 from providing current to Q1.
+D3 protects Q1 from having a too high Veb. R4 limits the current over D3 while C2 is charging.
+D5 and R8 provide a discharge path for C3.
