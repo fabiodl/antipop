@@ -1,1 +1,2 @@
 # antipop
+see principlesOfOperation.txt
